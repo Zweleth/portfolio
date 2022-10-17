@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    scroll-behavior: smooth;
+    transition: .4s;
+}
+
+header, main, footer {
+    min-width: 100vw;
+}
+
+body {
+    color:white;
+    display: flex;
+}
+
+header {
+    display: flex;
+    background-color: rgb(32, 32, 35);
+    height: 4em;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+    align-self: center;
+
+}
+
+.header {
+    justify-content: space-between;
+    position: fixed;
+    
+}
+.header i{
+    font-size: 2cm;
+    margin: 0 0 0 2%;
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+.menu {
+    align-self: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.menu-list li{
+    padding: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: sans-serif;
+}
+
+.menu a:hover, .menu a:active {
+    color: aqua;
+    font-weight: bold;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;  
+    overflow: hidden;
+}
+
+main>div>div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url(https://i.postimg.cc/0yTZqpHX/wallpaperflare-com-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding-top: 30px;
+    align-items: center;
+    width: 30vw;
+    
+}
+form section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form section {
+    width: 100%;
+}
+
+form input {
+    border: none;
+    border-bottom: 3px solid white;
+    background: none;
+    width: 100%;
+    color: #fff;
+}
+form input:hover,form input:focus, form input:valid{
+    outline: none;
+    border-color: aqua;
+
+    
+}
+form p {
+    align-self:flex-start;
+}
+
+form button {
+    background:none;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    color: #fff;
+    border-color: #fff;
+}
+
+form button:hover {
+    border-color: aqua;
+    color: aqua;
+}
+
+form button:active {
+    width: 48%;
+    height: 28px;
+}
+.details i{
+    display: flex;
+    font-size: x-large;
+    width:1em;
+    display: flex;
+    flex-direction: row;
+    
+}
+i p {
+    color: rgba(0, 255, 255, 0);
+    font-size: medium;
+    justify-self: center;
+}
+
+.details i:hover p {
+    color: rgba(0, 255, 255, 1);
+    transition: 0.5s;
+}
+.details i:hover{
+    color: aqua;
+    font-size: xx-large;
+}
+
+.details {
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+}
+
+.details section{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.sec1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.right {
+    background-color: rgba(0, 255, 255, 0.264);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.111);
+    font-size: small;
+
+}
+.left {
+    background-color: rgba(0, 0, 0, 0.264);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.111);
+    font-size: small;
+
+}
+.sec1 p{
+    text-align: center;
+    
+}
+
+
+.right:hover{
+    width: 90%;
+    color: #fff;
+    font-size: xxx-large;
+}
+
+.left:hover{
+    width: 90%;
+    color: #fff;
+    font-size: xxx-large;
+}
+.sec2 {
+    display: flex;
+
+}
+
+.sec2>section {
+    width:100vw;
+    height: 100vh;
+}
+
+.sec2>section>section {
+    border: 2px solid gray;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    color : gray;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.sec2>section>section:hover {
+    border-color: aqua;
+    color:aqua;
+}
+.a {
+    
+    left: 50px;
+    top: 110px
+}
+.b {
+    left: 300px;
+    top: 130px;
+}
+
+.c {
+    left: 550px;
+    top: 150px;
+}
+.d {
+    left: 800px;
+    top: 170px;
+}
+
+.e {
+    left: 1050px;
+    top:190px;
+}
+
+.sec4{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#more {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    
+}
+
+.more {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.sidebar {
+    position: relative;
+    left: 0;
+}
+
+
+.side-list {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    background-color: #222;
+    width: 300px;
+    left: 0;
+}
+
+.side-list  li {
+    list-style-type: none;
+}
+
+.side-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
