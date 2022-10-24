@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: Rubik;
     scroll-behavior: smooth;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 header, main, footer {
@@ -423,6 +423,40 @@ i p {
     text-decoration: none;
     color: #fff;
 }
+
+
+.dropdown {
+    position: absolute;
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    background-color: rgb(32, 32, 35);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    right: 30px;
+    display: none;
+}
+
+.dropdown li a {
+    margin: 20px;
+}
+
+
+    
+#drop:hover .dropdown {
+    position: absolute;
+        list-style-type: none;
+        padding: 10px 0 10px 0;
+        background-color: rgb(32, 32, 35);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        right: 30px;
+}
+
+
 
 
 
